@@ -50,32 +50,32 @@ a.btn-primary {
     background-color: white;
 }
 .darken-60 {
-    background-color: rgba(0, 0, 0, 0.6) 
+    background-color: rgba(0, 0, 0, 0.6)
     ;
 }
 #profile {
-    padding-top: 25px; 
-    max-height: 220px; 
+    padding-top: 25px;
+    max-height: 220px;
     max-width: 210px;
 }
 .lead p {
-    background: linear-gradient( 
-        rgba(0, 0, 0, 0.6), 
-        rgba(0, 0, 0, 0.6) 
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)
     );
 }
 .feature {
     padding-top: 20px;
     margin-bottom: 20px;
-    height: auto;    
+    height: auto;
 }
 .heading h2 {
-        padding-top: 25px;        
+        padding-top: 25px;
     }
 .heading p {
         padding: 5px;
        font-size: 14px;
-       
+
     }
 .img-thumbnail {
     margin-top: 8px;
@@ -120,11 +120,11 @@ a.btn-primary {
     font: bold;
 }
 #open-popup1 {
-    align-content: center 
+    align-content: center
 }
 .posts {
     margin: 0 auto;
-   
+
 }
 .post {
         background: #fff75f;
@@ -159,7 +159,7 @@ a.btn-primary {
     padding: 50px 0px 50px 0px;
     border-bottom: 1px dotted #ef5800;
     border-top: 1px dotted #ef5800;
-}   
+}
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
@@ -203,7 +203,7 @@ a.btn-primary {
 
 /* Main marketing message and sign up button */
 .jumbotron {
-  background: url('http://www.boosterclubtv.com/tester/CBlog/img/lawSt.jpg') no-repeat center center;
+  background: url('http://www.boosterclubtv.com/tester/CBlog/img/lawSt.jpg') no-repeat right center;
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
   color: white;
@@ -216,7 +216,7 @@ p.lead {
     padding-bottom: 15px;
 }
 .heading {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.65);
   border-radius: 6px;
   padding-bottom: 15px;
   width: 50%;
