@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>ColinBarlow</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <!-- Custom Stylesheet -->
+    <link href="Content/cblog-style.css" rel="stylesheet" />
+    <!-- CSS for Magnific Popup, used for hidden .row s gallery -->
+    <link href="Scripts/Magnific-Popup/dist/magnific-popup.css" rel="stylesheet" />
+    <!-- Font for Logo and .jumbotron main text -->
+    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Ruda' rel='stylesheet' type='text/css'>
+    <!--  Scripts to run at load -->
+    <script src="Scripts/jquery-2.1.3.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="Scripts/Magnific-Popup/dist/jquery.magnific-popup.js"></script>
+	<script>
+	$(document).ready(function() {
+		$('.open-popup-link').magnificPopup({
+			type:'inline',
+			midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
+			});
+		});
+	</script>
+    <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div id="page">
+        <div id="header">
+            <nav class="navbar navbar-default" role="navigation">
+                <div class="container">
+                    <!-- Brand and hamburger get grouped on mobile displays (for better mobile layout) -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">CMB</a>
+                    </div>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#">About</a></li>
+                            <li><a href="#hawks-info">Life</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Work<b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#feature">Resume</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="http://www.boosterclubtv.com/tester/CBlog/indexWTabs.html">Sample Work</a></li>
+                                    <li><a href="http://www.colinmbarlow.wordpress.com">Written Content</a></li>
+                                    <li><a href="https://gist.github.com/Slitzweitz">GitHub Profile</a></li>
+                                    <li class="divider"></li>                              
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+							<li><a href="http://instagram.com/gardengee?ref=badge"><img src="http://badges.instagram.com/static/images/ig-badge-32.png" alt="Instagram" /></a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="mailto:colinmbarlow@gmail.com">Email</a></li>
+                                    <li><a href="http://www.linkedin.com/in/ColinMBarlow">LinkedIn</a></li>
+                                    <li><a href="#">Skype</a></li>
+                                    <li class="divider"></li>
+                                    <li>Call: (858)-231-5431</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
+        </div>
+        <div id="post">
+            <div class="jumbotron">
+                <div class="container-fluid">
+                    <div class="heading">
+                        
+                            <h1>Colin Barlow</h1>
+                        <h3> - Life above average - </h3>
+       
+                        </div>
+                </div>
+            </div>
+
+            <div class="container-fluid">
+                <div id="articles" class="row">
+                    <div class="col-sm-6">
+
+                            <img src="img/postsample.jpg" class="img-thumbnail" alt="Sunrise">
+                            <div class="caption">
+                                <h3>Content Generation</h3>
+                                <p>Fresh, organic content is key to developing and maintaining an online presence. Simply adding in keywords no longer fools search algorithms, these days, it has to be the real thing.</p>
+                                <a class="btn btn-primary" href="http://www.padgadget.com/author/colin">
+                                    See More
+                                </a>
+
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+
+                        <img src="img/jQuerypic.JPG" class="img-thumbnail" alt="jQuery Code">
+                        <div class="caption">
+                            <h3>I Design Websites!</h3>
+                            <p>Whether it's a mobile first Bootstrap solution, or a simple landing page for your business, or a media-rich ecommerce site, we can work together to get you online.</p>
+                            <p><a href="http://www.boosterclubtv.com" class="btn btn-primary" role="button">See More</a></p>
+                        </div>
+                    </div>
+                </div>                
+                </div>
+                </div>
+                
+                <div id="aside" class="row">
+                    <a href='#open-popup1' class='open-popup-link'><h3>-Code-</h3></a>
+                    <div class="mfp-hide" id="open-popup1">      
+                    <script src="https://gist.github.com/Slitzweitz/f00de4988a728cb6552a.js"></script>       
+                </div>               
+            </div>
+			<div><p data-height="500" data-theme-id="0" data-slug-hash="XbypmO" data-default-tab="result" data-user="Slitzweitz" class='codepen'>See the Pen <a href='http://codepen.io/Slitzweitz/pen/XbypmO/'>Simple Tab Design</a> by Colin Barlow (<a href='http://codepen.io/Slitzweitz'>@Slitzweitz</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script></div>
+
+                    <footer id="footer" class="footer">
+                        <p>&copy; ColBar 2014</p>
+                    </footer>
+
+    </div>
+                          
+
+</body>
+</html>

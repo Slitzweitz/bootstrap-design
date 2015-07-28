@@ -1,0 +1,74 @@
+﻿html {
+            background: url("../../../img/sunrisehighcontrast.jpg") no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+
+        body {
+            color: white;
+            font-family: 'Economica', sans-serif;
+            text-transform: uppercase;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .wrap {
+            height: 1080px;
+        }
+        .outersidebar {
+            overflow: hidden;
+            position: relative;
+        }
+        .sidebar {
+            position: absolute;
+            width: 200px;
+            height: 800px;
+            left: -200px;
+            background-color: white;
+        }
+
+        img {
+            position: center center;
+        }
+
+        h1 {
+            margin-top: 5%;
+            margin-left: 5%;
+        }
+        h3 {
+            margin-left: 5%;
+        }
+        h3.top {
+            margin-top: 8%;
+            margin-left: 5%;
+            position: relative;
+            border-top: 2px solid white;
+            width: 155px;
+            padding-top: 10px;
+        }
+
+        h4 {
+            margin-left: 5%;
+            position: relative;
+        }
+
+        p {
+            margin-top: 15%;
+            margin-left: 5%;
+            position: relative;
+            color: yellow;
+        }
+
+        .divider {
+            height: 2px;
+            width: 145px;
+            background-color: white;
+            position: absolute;
+            margin-top: 7%;
+            margin-left: 5%;
+        }

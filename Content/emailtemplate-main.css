@@ -1,0 +1,166 @@
+﻿/* Space out content a bit */
+body {
+  padding-bottom: 20px;
+  text-align: center;
+}
+body a{
+    text-decoration: none;
+}
+.social-media {
+    float: right;
+    margin-top: 100px;
+    display: inline;
+}
+.nav .navbar-nav {
+    margin-left: 
+}
+.navbar-default .navbar-brand {
+    font-family: "Lobster", cursive;
+    color: white;
+}
+.navbar-default {
+    background-color: #808080;
+    margin-bottom: 0px;
+}
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+.darken-60 {
+    background-color: rgba(0, 0, 0, 0.6) 
+    );
+}
+.lead p {
+    background: linear-gradient( 
+        rgba(0, 0, 0, 0.6), 
+        rgba(0, 0, 0, 0.6) 
+    );
+}
+.mid {
+  font-weight: 900;
+  color: white;
+  text-transform: uppercase;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 12px;
+}
+.category-left {
+    background: url("../img/sunrise.JPG") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 335px;
+}
+.category-right {
+    background: url("../img/maloka-dark.JPG") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 335px;
+}
+/*
+.right-icons {
+ display: inline;
+ float: right;
+}
+
+.right-icons ul {
+    margin-top: 500px;
+}
+
+.right-icons li {
+    padding-top: 5px;
+}
+    */
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Custom page header */
+.header {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+/* Custom page footer */
+.footer {
+  margin-top:15px;
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 1070px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+  background: url("../img/dmt.JPG") no-repeat center scroll;
+  color: white;
+  height: 450px;
+}
+.heading {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding-bottom: 15px;
+}
+.jumbotron h1 {
+    padding-top: 75px;
+}
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
