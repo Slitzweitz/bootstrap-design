@@ -1,0 +1,279 @@
+﻿/* Space out content a bit */
+body {
+  text-align: center;
+  font-family: 'Ruda', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+a.btn-primary {
+    vertical-align: text-top;
+}
+.container-fluid {
+
+}
+.ig-b- { display: inline; margin-right: 8px; }
+.ig-b-:hover { background-position: 0 -60px; } .ig-b-:active { background-position: 0 -120px; }
+.ig-b-32 { width: 32px; height: 32px; background: url(//badges.instagram.com/static/images/ig-badge-sprite-32.png) no-repeat 0 0; }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+.ig-b-32 { background-image: url(//badges.instagram.com/static/images/ig-badge-sprite-32@2x.png); background-size: 60px 178px; } }
+.social-media {
+    float: right;
+    margin-top: 100px;
+    display: inline;
+}
+.clearfix {
+    overflow: auto;
+}
+.navbar {
+    position: relative;
+    border: none;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.navbar-default .navbar-brand {
+    font-family: "Lobster", cursive;
+    color: #009ce1;
+    border: none;
+}
+.navbar-default {
+    background-color: black;
+    margin-bottom: 0px;
+}
+.navbar-default .navbar-nav > li > a {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+.darken-60 {
+    background-color: rgba(0, 0, 0, 0.6) 
+    ;
+}
+#profile {
+    padding-top: 25px; 
+    max-height: 220px; 
+    max-width: 210px;
+}
+.lead p {
+    background: linear-gradient( 
+        rgba(0, 0, 0, 0.6), 
+        rgba(0, 0, 0, 0.6) 
+    );
+}
+.feature {
+    padding-top: 20px;
+    margin-bottom: 20px;
+    height: auto;    
+}
+.heading h2 {
+        padding-top: 25px;        
+    }
+.heading p {
+        padding: 5px;
+       font-size: 14px;
+       
+    }
+.img-thumbnail {
+    margin-top: 8px;
+}
+.feature a {
+        text-decoration: none;
+    }
+.gal {
+    padding: 5px 5px 5px 5px;
+    /*background: #1C418C;*/
+}
+.mid1 {
+  font-weight: 900;
+  color: #009ce1;
+  text-transform: uppercase;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 12px;
+}
+.mid2 {
+  font-weight: 900;
+  color: #ef5800;
+  text-transform: uppercase;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 12px;
+}
+#articles {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 45px;
+    /*background: #ffbb7a;*/
+    color: #6b3100;
+    font: bold;
+}
+#open-popup1 {
+    align-content: center 
+}
+.posts {
+    margin: 0 auto;
+   
+}
+.post {
+        background: #fff75f;
+}
+#image-wrap1 {
+    background: url("../img/hiking.jpg") no-repeat center center ;
+    height: 335px;
+    /*border: 2px solid #FEE011*/
+}
+#image-wrap2 {
+    background: url("../img/maloka-darksmall.jpg") no-repeat center center;
+    height: 335px;
+    /*border: 2px solid #FEE011*/
+}
+#low-img {
+     margin-bottom: 50px;
+    /*background: #FEE011;*/
+    /*border: 3px solid #1C418C;*/
+}
+.caption a{
+    color: white;
+}
+
+#caption a{
+    color: #1C418C;
+}
+#aside {
+    max-width: 75%;
+    margin: 0 auto;
+	margin-bottom: 35px;
+	background: url("img/ironmtnsunrise.jpg") no-repeat center center;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px dotted #ef5800;
+    border-top: 1px dotted #ef5800;
+}   
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Custom page header */
+.header {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 75px;
+  /*color: white;
+  background: #F57215;*/
+}
+.footer p {
+    padding-bottom: 25px;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 1070px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  background: url('http://www.boosterclubtv.com/tester/CBlog/img/lawSt.jpg') no-repeat center center;
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+  color: white;
+  height: 450px;
+
+}
+p.lead {
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 15px;
+}
+.heading {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 6px;
+  padding-bottom: 15px;
+  width: 50%;
+  min-height: 225px;
+  margin: 0 auto;
+  position: center center;
+
+}
+.heading h3{
+    color: white;
+    margin-bottom: 45px;
+}
+.heading h1 {
+    color: white;
+}
+.jumbotron h1 {
+    padding-top: 75px;
+    padding-bottom: 15px;
+    font-family: "Lobster", cursive;
+}
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+.btn a {
+      color: white;
+}
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    /* Remove the padding we set earlier */
+    .header,
+    .marketing,
+    .footer {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    /* Space out the masthead */
+    .header {
+        margin-bottom: 0px;
+    }
+    /* Remove the bottom border on the jumbotron for visual effect */
+    .jumbotron {
+        border-bottom: 0;
+    }
+
+    p.lead {
+        max-width: 45%;
+        text-align: center;
+        margin: 0 auto;
+        padding-bottom: 15px;
+    }
+}
